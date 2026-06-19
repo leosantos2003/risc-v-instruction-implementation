@@ -1,5 +1,7 @@
 # Implementação de Instruções na Arquitetura RISC-V
 
+**INF01113 - Organização de Computadores - UFRGS - 2026/1**
+
 Alunos: Henrique Anderson Knorst, Henrique de Lima Bortolomiol, Leonardo Rocha dos Santos e Leônidas Lewy de Paula dos Santos
 
 ## 1. Introdução
