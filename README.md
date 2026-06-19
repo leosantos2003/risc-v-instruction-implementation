@@ -6,7 +6,19 @@ Alunos: Henrique Anderson Knorst, Henrique de Lima Bortolomiol, Leonardo Rocha d
 
 ## 1. Introdução
 
-Este relatório descreve as modificações realizadas no bloco operativo e nos bits de controle dos processadores para suportar novas instruções. Foram implementadas as instruções pertinentes ao Grupo 3: JALR, BGE, LB e DIV. As alterações foram replicadas e adaptadas para as três organizações do RISC-V estudadas: Monociclo, Multiciclo e Pipeline.  
+Este relatório descreve as modificações realizadas no bloco operativo e nos bits de controle dos processadores para suportar novas instruções. Foram implementadas as instruções pertinentes ao Grupo 3: JALR, BGE, LB e DIV. As alterações foram replicadas e adaptadas para as três organizações do RISC-V estudadas: Monociclo, Multiciclo e Pipeline. Foi utilzado o software [Logisim](https://logisim.app/).
+
+### 1.1. RISC-V Monociclo
+
+<img width="852" height="801" alt="Captura de tela de 2026-06-19 15-38-24" src="https://github.com/user-attachments/assets/b7543aca-5031-4a71-8bb5-0bbcec76a5d3" />
+
+### 1.2. RISC-V Multiciclo
+
+<img width="1060" height="789" alt="Captura de tela de 2026-06-19 15-42-34" src="https://github.com/user-attachments/assets/9510c0cf-00ec-4eb1-b6d2-e8417594f060" />
+
+### 1.3. RISC-V Pipeline
+
+<img width="979" height="766" alt="Captura de tela de 2026-06-19 15-40-57" src="https://github.com/user-attachments/assets/2c629e6f-1a47-4672-8e0b-d32c35d7ba5c" />
 
 ## 2. Implementação das Instruções
 
