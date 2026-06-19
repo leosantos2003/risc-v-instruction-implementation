@@ -49,3 +49,11 @@ Este relatório descreve as modificações realizadas no bloco operativo e nos b
 
 - **Modificação Geral (Monociclo, Multiciclo e Pipeline):** Foi desenvolvido um subcircuito dedicado exclusivamente à operação de divisão no interior da ULA. A divisão básica utiliza o bloco lógico padrão do Logisim; entretanto, para adequar o resultado ao padrão da arquitetura RISC-V, adicionou-se uma lógica de tratamento de exceções. Quando ocorre overflow, o circuito retorna a própria entrada, e em cenários de divisão por zero, o circuito retorna o valor -1, conforme estipulado pelo manual da arquitetura. Como a estrutura da ULA é mantida consistente entre os três processadores, essas alterações foram replicadas de forma exata nas arquiteturas Monociclo, Multiciclo e Pipeline.
     - **Diagrama de Estados (0 -> 1 -> 2 -> 6):** Opera de forma análoga às demais instruções do Tipo R. O cálculo aritmético ocorre na ULA durante o Estado 2, onde circuitos dedicados tratam exceções como divisão por zero (retornando -1) ou overflow (retornando o valor de entrada). O resultado final é consolidado e escrito no registrador de destino ao atingir o Estado 6.
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+## Contact
+
+Leonardo Santos - <leorsantos2003@gmail.com>
